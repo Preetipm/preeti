@@ -6,8 +6,7 @@
      padding: 5px 5px;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-.box-image
-          {
+.box-image{
            width: 100%;
            height: 43%;
            padding: 6px 4px;
@@ -15,19 +14,17 @@
            border-radius: 14px;
            border: 35px black;
           }
-.position
-         {
+.position{
           position: relative;
          }
-.promoted 
-      {
+.promoted{
        position: absolute;
        top: 0%;
-       padding-right: 25px;
-       color: #dcdae0;
+       left: 3%;
+       /* padding-right: 25px; */
+       color: #0d0c0e;
       }
-.time 
-      {
+.time{
        position: absolute;
        bottom: 0%;
        right: 0%;
@@ -37,21 +34,24 @@
        box-sizing: 10px;
        background-size: -12px 2px 2px 2px; */
       }
-      .bg{
-        background-color: rgb(156, 163, 163);
-        /* width: max-content; */
-        width: 50px;
-        border-radius: 5px;
-      }
-.discount
-      {
+.bg{
+    background-color: rgb(156, 163, 163);
+    width: max-content;
+        /* padding: 5px; */
+        /* width: 50px; */
+    border-radius: 5px;
+    }
+.discount{
        position: absolute;
        bottom: 0%;
        left: 0%;
-       padding-left: 20px;
-       color: red;
+       /* padding-left: 10px; */
+       color: rgb(13, 6, 110);
       }
 .font{
-  color: grey;
-  font-family: Arial, Helvetica, sans-serif;
-}
+      color: grey;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+.p-5{
+     padding: 5px;
+    }
