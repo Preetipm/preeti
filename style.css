@@ -9,7 +9,7 @@
      position: fixed;
      
     }
-    .f-container{
+.f-container{
         display: flex;
     }
 .logo-space{
@@ -25,7 +25,7 @@
            height: 43%;
            padding: 6px 4px;
            padding-right: 5px;
-           border-radius: 14px;
+           border-radius: 2px;
            border: 35px black;
           }
 .logo{
