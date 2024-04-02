@@ -47,8 +47,9 @@ body{
     /* border-radius: 20%; */
 }
 .btn{
-    border-radius: 40%;
-    width: 140px;
+    border-radius: 30%;
+    padding: auto;
+    width: 120px;
     height: 40px;
     font-size: medium;
     
