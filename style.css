@@ -1,35 +1,78 @@
-.box{
-     border: 1px solid rgba(201, 198, 198, 0.836);
-     height: 720px;
-     margin: opx;
-     width: 300px;
-     border-radius: 8px 5px;
-     padding: 5px 5px;
-     font-family: monospace;
-     position: fixed;
-     
-    }
-.f-container{
-        display: flex;
-    }
-.logo-space{
-    justify-content: space-between;
-    padding: 10px;
+.box {
+  border: 1px solid rgba(201, 198, 198, 0.836);
+  height: 720px;
+  margin: opx;
+  width: 300px;
+  border-radius: 8px 5px;
+  padding: 5px 5px;
+  font-family: monospace;
+  position: fixed;
 }
-.box-image{
-    /* position: 400px 500px; */
-    margin: 100px 400px;
-    /* bottom: 300px; */
-/* align-content: center; */
-           width: 100%;
-           height: 43%;
-           padding: 6px 4px;
-           padding-right: 5px;
-           border-radius: 2px;
-           border: 35px black;
-          }
-.logo{
-    width: 10%;
-           height: 43%;
-    /* display: flex; */
+.image-pad{
+    border: 1px solid rgba(201, 198, 198, 0.836);
+    height: 50px;
+    margin: opx;
+    width: 300px;
+    border-radius: 8px 5px;
+    padding: 5px 5px;
+    font-family: monospace;
+}
+.f-container {
+  display: flex;
+}
+.logo-space {
+  justify-content: space-between;
+  padding: 10px;
+  /*  */
+}
+.box-image {
+  /* position: 400px 500px; */
+  margin: 100px 400px;
+  /* bottom: 300px; */
+  /* align-content: center; */
+  width: 100%;
+  height: 43%;
+  padding: 6px 4px;
+  padding-right: 5px;
+  border-radius: 14px;
+  border: 35px black;
+}
+.logo {
+  width: 10%;
+  height: 43%;
+  /* display: flex; */
+}
+
+.left-panel {
+  border: 1px solid rgba(201, 198, 198, 0.836);
+  height: 720px;
+  flex-grow: 2;
+  border-radius: 8px 5px;
+  padding: 15px;
+  font-family: monospace;
+}
+
+.right-panel {
+  height: 720px;
+  flex-grow: 8;
+  border-radius: 8px 5px;
+  padding: 15px;
+  margin-left: 10px;
+  font-family: monospace;
+}
+
+.g-image {
+  /* position: 400px 500px; */
+
+  /* bottom: 300px; */
+  /* align-content: center; */
+
+  padding: 6px 4px;
+  padding-right: 5px;
+  border-radius: 14px;
+  border: 35px black;
+}
+
+.tb {
+  border: 1px solid red;
 }
