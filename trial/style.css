@@ -62,6 +62,10 @@ body{
     display: flex;
     gap: 10px;
 }
+.title{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .sub-title{
     size: 20px;
 }
@@ -72,7 +76,7 @@ body{
     width: 320px;
     padding: 16px;
     font-size: 16px;
-    background-color: rgba(0, 0, 0, 0.689);
+    background-color: rgba(0, 0, 0, 0.481);
     border: 1px solid rgba(251, 251, 251, 0.392);
     border-radius: 4px;
 }
@@ -93,3 +97,8 @@ border-radius: 4px;
 .container{
     display: flex;
 }
+/* .video-size{
+    width: 200px;
+    height: 200px;
+    right: 10%;
+} */
