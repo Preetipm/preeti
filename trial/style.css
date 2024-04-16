@@ -174,7 +174,7 @@ font-family: Arial, Helvetica, sans-serif;
 .btn-question-style{
     padding: 6px;
     width: 980px;
-    background: linear-gradient(to bottom,  rgb(48, 135, 235) 0%,rgba(224, 228, 231, 0.613) 100%);
+    background: linear-gradient(to bottom,  rgb(40, 112, 194) 0%,rgba(224, 228, 231, 0.613) 100%);
     height: 59px;
     font-size: 20px;
     font-weight: bold;
