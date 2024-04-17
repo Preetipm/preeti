@@ -46,7 +46,7 @@ body{
 .logo{
     color: rgb(212, 212, 221);
     border: 12px;
-    border-color: aliceblue;
+    border-color: rgb(116, 235, 246);
 }
 .btn{
     border-radius: 8px;
@@ -199,3 +199,7 @@ h2::selection{
 p::selection{
     color: aqua;
 }
+/* .tile:focus img{
+    background-color: aqua;
+    border: 8px;
+} */
