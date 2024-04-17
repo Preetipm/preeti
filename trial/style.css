@@ -175,8 +175,27 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 6px;
     width: 980px;
     background: linear-gradient(to bottom,  rgb(40, 112, 194) 0%,rgba(224, 228, 231, 0.613) 100%);
+    color: rgb(252, 253, 254);
     height: 59px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 8px; 
+}
+
+input:focus{
+    outline-color: rgb(0, 221, 255);
+    border: none;
+}
+button:hover{
+    background-color: rgb(46, 225, 225);
+    color: black;
+}
+h1::selection{
+    color: aqua;
+}
+h2::selection{
+    color: aqua;
+}
+p::selection{
+    color: aqua;
 }
