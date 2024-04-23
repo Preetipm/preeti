@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dribble-cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 90px;
+    overflow-x: auto;
+    animation-name: card-animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+.card-section{
+    overflow: hidden;
+}
+.dribble-cards::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    width: 270px;
+    height: 300px;
+    background-color: rgb(161, 216, 249);
+    border-radius: 18px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+@keyframes card-animation{
+    0%{}
+    100%{transform: translate(-50%);}
+    
+}
+.user{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
