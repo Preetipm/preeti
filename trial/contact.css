@@ -25,6 +25,7 @@ body{
     border-radius: 18px;
     flex-shrink: 0;
     overflow: hidden;
+    
 }
 @keyframes card-animation{
     0%{}
