@@ -11,7 +11,6 @@ body{
     animation-name: card-animation;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-
 }
 .card-section{
     overflow: hidden;
