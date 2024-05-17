@@ -19,7 +19,7 @@ body{
     display: none;
 }
 .card{
-    width: 270px;
+    width: 250px;
     height: 300px;
     background-color: rgb(161, 216, 249);
     border-radius: 18px;
